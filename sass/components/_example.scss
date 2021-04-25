@@ -1,0 +1,63 @@
+.example {
+  --grid-item-count: 3;
+  --space-between: 30px;
+}
+
+/* Синий оверлей */
+
+.example-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 63px 24px;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--dark-bg-text-color);
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
+  transition: transform var(--animation);
+}
+
+.example__info {
+  padding: 20px 24px;
+  border: 1px solid var(--border-examples);
+  border-top: none;
+}
+
+.example__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  margin-bottom: 4px;
+}
+
+.example__type {
+  font-size: 16px;
+  line-height: 1.87;
+  margin-bottom: 0;
+  color: var(--primary-text-color);
+}
+
+.example__link {
+  display: inline-block;
+  transition: box-shadow var(--animation);
+
+  &:hover,
+  &:focus {
+    box-shadow: var(--box-shadow-examples);
+  }
+
+  &:hover .overlay,
+  &:focus .overlay {
+    transform: translateY(0);
+  }
+}

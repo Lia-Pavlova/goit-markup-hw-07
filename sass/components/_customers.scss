@@ -1,0 +1,27 @@
+.customers {
+  --grid-item-count: 6;
+  --space-between: 30px;
+
+  &__link:hover,
+  &__link:focus {
+    border: 1px solid var(--accent-color);
+  }
+
+  &__link:hover &__icon,
+  &__link:focus &__icon {
+    fill: var(--accent-color);
+  }
+}
+
+.customers__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  transition: border var(--animation);
+}
+.customers__icon {
+  fill: var(--icon-color);
+  transition: fill var(--animation);
+}

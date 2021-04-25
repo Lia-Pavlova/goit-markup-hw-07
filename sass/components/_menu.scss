@@ -1,0 +1,25 @@
+.menu {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu__link {
+  color: var(--title-text-color);
+  transition: color var(--animation);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  color: var(--accent-color);
+}
+
+.menu__link.current {
+  color: var(--accent-color);
+}

@@ -1,0 +1,21 @@
+.page-footer {
+  background-color: var(--dark-bg-color);
+  color: var(--dark-bg-text-color);
+  padding: 60px 0;
+}
+
+.page-footer__container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.page-footer__logo {
+  color: var(--dark-bg-text-color);
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.page-footer__social-list {
+  width: 206px;
+}

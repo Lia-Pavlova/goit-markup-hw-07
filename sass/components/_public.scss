@@ -1,0 +1,16 @@
+/* Контейнер Public */
+
+.public {
+  width: calc((50%-45px) / 2); /* Позиционирование контейнера в футере */
+}
+
+.public__title {
+  color: var(--dark-bg-text-color);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
