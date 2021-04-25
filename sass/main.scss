@@ -1,26 +1,43 @@
-@import "./utils/variables";
-@import "./base/common";
-@import "./base/container";
-@import "./components/grid";
-@import "./layouts/header";
-@import "./components/logo";
-@import "./components/current-page";
-@import "./components/menu";
-@import "./components/contacts";
-@import "./components/main-button";
-@import "./components/modal";
-@import "./components/modal-form";
-@import "./components/hero";
-@import "./components/section";
-@import "./components/feature";
-@import "./components/activities";
-@import "./components/team";
-@import "./components/member";
-@import "./components/social-list";
-@import "./components/customers";
-@import "./components/filter";
-@import "./components/example";
-@import "./layouts/footer";
-@import "./components/address";
-@import "./components/public";
-@import "./components/subscription";
+@import './vendors/modern-normolize';
+
+@import './utils/variables';
+
+@import './base/common';
+@import './base/container';
+@import './base/grid';
+
+@import './layouts/header';
+@import './components/logo';
+@import './layouts/current-page';
+@import './layouts/menu';
+@import './layouts/contacts';
+
+@import './components/main-button';
+
+@import './layouts/modal';
+@import './components/modal-form';
+
+@import './layouts/hero';
+@import './components/hero-title';
+
+@import './layouts/section';
+@import './components/section-title';
+
+@import './components/feature-list';
+
+@import './components/activities-list';
+
+@import './layouts/team';
+@import './components/team-list';
+@import './components/member-card';
+@import './components/social-list';
+
+@import './components/customers';
+
+@import './components/filter';
+@import './components/example';
+
+@import './layouts/footer';
+@import './components/address';
+@import './components/public';
+@import './components/subscription';

@@ -40,6 +40,15 @@
   border-radius: 4px;
 }
 
+.modal__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 12px;
+}
+
 /* Кнопка Закрыть */
 
 .modal__button-close {

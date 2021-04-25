@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -53,12 +53,14 @@ address {
   padding-left: 0;
   margin: 0;
 }
+
 .link {
   text-decoration: none;
-}
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .flexbox {
