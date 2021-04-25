@@ -4,38 +4,35 @@
 
 @import './base/common';
 @import './base/container';
-@import './base/grid';
+@import './layouts/grid';
+@import './base/section';
 
 @import './layouts/header';
 @import './components/logo';
-@import './layouts/current-page';
+@import './components/current-page';
 @import './layouts/menu';
 @import './layouts/contacts';
 
-@import './components/main-button';
+@import './components/button';
 
-@import './layouts/modal';
+@import './components/modal-window';
 @import './components/modal-form';
 
 @import './layouts/hero';
-@import './components/hero-title';
-
-@import './layouts/section';
-@import './components/section-title';
 
 @import './components/feature-list';
 
 @import './components/activities-list';
 
 @import './layouts/team';
-@import './components/team-list';
+
 @import './components/member-card';
 @import './components/social-list';
 
 @import './components/customers';
 
 @import './components/filter';
-@import './components/example';
+@import './components/examples';
 
 @import './layouts/footer';
 @import './components/address';
